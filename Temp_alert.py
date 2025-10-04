@@ -5,3 +5,7 @@ elif temp>10 and temp<=25:
     print("It's a Normal Temperature")
 elif temp>25:
     print("It's a Hot Temperature")
+
+fahrenheit = (temp * 9/5) + 32
+
+print(f"{temp}°C is equal to {fahrenheit}°F")
